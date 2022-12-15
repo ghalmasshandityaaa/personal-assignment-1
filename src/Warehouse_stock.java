@@ -10,13 +10,13 @@ public class Warehouse_stock {
         System.out.println("########################\n");
 
         System.out.println("Selamat Datang " + name);
-        System.out.print("Masukkan nama barang yang mau ditambah : ");
+        System.out.printf("%-45s : ", "Masukkan nama barang yang mau ditambah");
         String productName = input.nextLine();
-        System.out.print("Masukkan jumlah barang yang mau ditambah : ");
+        System.out.printf("%-45s : ", "Masukkan jumlah barang yang mau ditambah");
         int stockProduct = input.nextInt();
-        System.out.print("Masukkan harga beli untuk barang tersebut : ");
+        System.out.printf("%-45s : ", "Masukkan harga beli untuk barang tersebut");
         Double buyPrice = input.nextDouble();
-        System.out.print("Masukkan harga jual untuk barang tersebut : ");
+        System.out.printf("%-45s : ", "Masukkan harga jual untuk barang tersebut");
         Double sellPrice = input.nextDouble();
         System.out.println("\nStok Gudang Rincian Barang");
         System.out.println("##########################");

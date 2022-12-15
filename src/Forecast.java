@@ -33,17 +33,18 @@ public class Forecast {
         input.nextLine();
         System.out.printf("Kecocokan anda dengan pasangan anda adalah : %.2f %s%n", calculate(), "%");
 
-        menuChoice(input);
+        additionalMenu(input);
     }
 
     private void love() {
-        System.out.println("   ♥♥       ♥♥");
-        System.out.println(" ♥♥♥♥,,♥♥♥♥");
-        System.out.println("♥♥♥♥♥♥♥♥♥♥");
-        System.out.println("  ♥♥♥♥♥♥♥♥");
-        System.out.println("     ♥♥♥♥♥");
-        System.out.println("       ♥♥♥");
-        System.out.println("         ♥");
+        System.out.println("  **    **");
+        System.out.println(" ****,,****");
+        System.out.println("************");
+        System.out.println(" **********");
+        System.out.println("  ********");
+        System.out.println("   ******");
+        System.out.println("    ****");
+        System.out.println("     **");
     }
 
     private double calculate() {
@@ -55,7 +56,7 @@ public class Forecast {
         return random / 1.1;
     }
 
-    private void menuChoice(Scanner input) {
+    private void additionalMenu(Scanner input) {
         System.out.println("\n=================================");
         System.out.println("[1] Re-forecast [2] Back [0] Exit");
         System.out.print("Select menu : ");
